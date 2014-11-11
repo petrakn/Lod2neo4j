@@ -1,0 +1,6 @@
+from: http://wiki.dbpedia.org/Downloads2014
+
+http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/dbpedia_2014.owl.bz2
+http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/en/instance_types_en.nt.bz2
+http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/en/mappingbased_properties_cleaned_en.nt.bz2
+http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/en/homepages_en.nt.bz2
