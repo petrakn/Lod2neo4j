@@ -1,0 +1,182 @@
+@prefix lod2graph: <http://simpol.ijs.si/lod2graph#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/property/abbreviation> lod2graph:name "dbpedia_abbreviation" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/city> lod2graph:name "dbpedia_city" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/country> lod2graph:name "dbpedia_country" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://dbpedia.org/property/document> lod2graph:name "dbpedia_document" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/fax> lod2graph:name "dbpedia_fax" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/state> lod2graph:name "dbpedia_state" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/street> lod2graph:name "dbpedia_street" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://dbpedia.org/property/zipCode> lod2graph:name "dbpedia_zipCode" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://purl.org/dc/elements/1.1/description> lod2graph:name "purl_description" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://purl.org/dc/elements/1.1/title> lod2graph:name "purl_title" ;
+    rdfs:subPropertyOf lod2graph:name,
+        lod2graph:property .
+
+<http://purl.org/dc/terms/subject> lod2graph:name "dct_subject" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://reegle.info/schema#activeIn> lod2graph:name "reegle_activeIn" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://reegle.info/schema#activities> lod2graph:name "reegle_activities" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#capacityConcerns> lod2graph:name "reegle_capacityConcerns" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#competition> lod2graph:name "reegle_competition" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#degreeIndependence> lod2graph:name "reegle_degreeIndependence" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#desirability> lod2graph:name "reegle_desirability" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyDebates> lod2graph:name "reegle_energyDebates" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyEfficiency> lod2graph:name "reegle_energyEfficiency" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyFramework> lod2graph:name "reegle_energyFramework" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyProcedure> lod2graph:name "reegle_energyProcedure" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyRegulationRole> lod2graph:name "reegle_energyRegulationRole" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyRegulator> lod2graph:name "reegle_energyRegulator" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#energyStudies> lod2graph:name "reegle_energyStudies" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#extendNetwork> lod2graph:name "reegle_extendNetwork" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#funded> lod2graph:name "reegle_funded" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#governmentAgencies> lod2graph:name "reegle_governmentAgencies" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#governmentRole> lod2graph:name "reegle_governmentRole" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#mission> lod2graph:name "reegle_mission" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#organisationType> lod2graph:name "reegle_organisationType" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#ownership> lod2graph:name "reegle_ownership" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#profile> lod2graph:name "reegle_profile" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://reegle.info/schema#projectDescription> lod2graph:name "reegle_projectDescription" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#projectExpertise> lod2graph:name "reegle_projectExpertise" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#projectTitle> lod2graph:name "reegle_projectTitle" ;
+    rdfs:subPropertyOf lod2graph:name,
+        lod2graph:property .
+
+<http://reegle.info/schema#referenceNumber> lod2graph:name "reegle_referenceNumber" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#regulatoryBarriers> lod2graph:name "reegle_regulatoryBarriers" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#regulatoryFramework> lod2graph:name "reegle_regulatoryFramework" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#regulatoryRoles> lod2graph:name "reegle_regulatoryRoles" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#reliance> lod2graph:name "reegle_reliance" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#renewableEnergy> lod2graph:name "reegle_renewableEnergy" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#sector> lod2graph:name "reegle_sector" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://reegle.info/schema#sources> lod2graph:name "reegle_sources" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#specialisation> lod2graph:name "reegle_specialisation" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://reegle.info/schema#targetAudience> lod2graph:name "reegle_targetAudience" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://reegle.info/schema#technology> lod2graph:name "reegle_technology" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://www.geonames.org/ontology#countryCode> lod2graph:name "geonames_countryCode" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://www.geonames.org/ontology#name> lod2graph:name "geonames_name" ;
+    rdfs:subPropertyOf lod2graph:name,
+        lod2graph:property .
+
+rdf:type lod2graph:name "rdf_type" ;
+    rdfs:subPropertyOf lod2graph:type .
+
+<http://www.w3.org/2002/07/owl#sameAs> lod2graph:name "owl_sameAs" ;
+    rdfs:subPropertyOf lod2graph:relation .
+
+<http://www.w3.org/2004/02/skos/core#definition> lod2graph:name "skos_definition" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://www.w3.org/2004/02/skos/core#prefLabel> lod2graph:name "skos_prefLabel" ;
+    rdfs:subPropertyOf lod2graph:name,
+        lod2graph:property .
+
+<http://xmlns.com/foaf/0.1/depiction> lod2graph:name "foaf_depiction" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://xmlns.com/foaf/0.1/homepage> lod2graph:name "foaf_homepage" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://xmlns.com/foaf/0.1/mbox> lod2graph:name "foaf_mbox" ;
+    rdfs:subPropertyOf lod2graph:property .
+
+<http://xmlns.com/foaf/0.1/name> lod2graph:name "foaf_name" ;
+    rdfs:subPropertyOf lod2graph:name,
+        lod2graph:property .
+
+<http://xmlns.com/foaf/0.1/phone> lod2graph:name "foaf_phone" ;
+    rdfs:subPropertyOf lod2graph:property .
+

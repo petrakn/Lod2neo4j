@@ -1,0 +1,616 @@
+node {
+  diameter: 40px;
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  border-width: 2px;
+  text-color-internal: #000000;
+  caption: '{id}';
+  font-size: 10px;
+}
+
+relationship {
+  color: #D4D6D7;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+}
+
+relationship.w3_sameAs {
+  color: #AA3333;
+  shaft-width: 3px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+}
+
+relationship.reegle_activein {
+  color: #22FF22;
+  shaft-width: 2px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+}
+
+
+node.node {
+  color: #F25A29;
+  border-color: #DC4717;
+  text-color-internal: #FFFFFF;
+}
+
+node._None {
+  color: #AD62CE;
+  border-color: #9453B1;
+  text-color-internal: #FFFFFF;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.opengis__Feature {
+  color: #30B6AF;
+  border-color: #46A39E;
+  text-color-internal: #FFFFFF;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.xmlns_Organization {
+  color: #30B6AF;
+  border-color: #46A39E;
+  text-color-internal: #FFFFFF;
+  diameter: 80px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.reegle_ProjectOutput {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+}
+
+node.geonames_Feature {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.reegle_Technology {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.reegle_Sector {
+  color: #F25A29;
+  border-color: #DC4717;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.LOD {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.DBpediaSample {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node._Node {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.DBpedia {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{dbpedia_title}';
+  font-size: 10px;
+}
+
+node.dbpedia_CareerStation {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_RadioProgram {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_Settlement {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Agent {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_OrganisationMember {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Work {
+  color: #FF6C7C;
+  border-color: #EB5D6C;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_PopulatedPlace {
+  color: #30B6AF;
+  border-color: #46A39E;
+  text-color-internal: #FFFFFF;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_PersonFunction {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{dbpedia_title}';
+  font-size: 10px;
+}
+
+node.dbpedia_MusicalArtist {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_MusicalWork {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Place {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Person {
+  color: #FF6C7C;
+  border-color: #EB5D6C;
+  text-color-internal: #FFFFFF;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Film {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Reptile {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Broadcaster {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Organisation {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Athlete {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Species {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_SportsTeamMember {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_TelevisionShow {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Book {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Company {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Building {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Aircraft {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_VolleyballCoach {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_WomensTennisAssociationTournament {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_ShoppingMall {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Airline {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Murderer {
+  color: #FCC940;
+  border-color: #F3BA25;
+  text-color-internal: #000000;
+  diameter: 40px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Prison {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_AustralianRulesFootballPlayer {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_Island {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_SoccerManager {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_SoccerClub {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.dbpedia_SportsTeam {
+  color: #DFE1E3;
+  border-color: #D4D6D7;
+  text-color-internal: #000000;
+}
+
+node.w3_Concept {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Astronaut {
+  color: #30B6AF;
+  border-color: #46A39E;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_SpaceMission {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_GovernmentAgency {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Event {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Rocket {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_WrittenWork {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_PeriodicalLiterature {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Architect {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_TelevisionStation {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_MilitaryPerson {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_MotorcycleRider {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Newspaper {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Ship {
+  color: #99FFFF;
+  border-color: #3445A2;
+  text-color-internal: #123456;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_MeanOfTransportation {
+  color: #A9E8E8;
+  border-color: #3445A2;
+  text-color-internal: #123456;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
+node.dbpedia_Country {
+  color: #4356C0;
+  border-color: #3445A2;
+  text-color-internal: #FFFFFF;
+  diameter: 50px;
+  border-width: 2px;
+  caption: '{name}';
+  font-size: 10px;
+}
+
